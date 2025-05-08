@@ -1,0 +1,77 @@
+layout:
+  post: Publicación
+  category: Categoría
+  tag: Etiqueta
+
+tabs:
+  home: Inicio
+  categories: Categorías
+  tags: Etiquetas
+  archives: Archivos
+  about: Acerca de
+
+search:
+  hint: Buscar
+  cancel: Cancelar
+  no_results: ¡Vaya! No se han encontrado resultados.
+
+panel:
+  lastmod: Actualizado recientemente
+  trending_tags: Etiquetas de tendencia
+  toc: Contenido
+
+copyright:
+  license:
+    template: Esta publicación está bajo la licencia :LICENSE_NAME por el autor.
+    name: CC BY 4.0
+    link: https://creativecommons.org/licenses/by/4.0/
+  brief: Algunos derechos reservados.
+  verbose: >-
+    Salvo que se indique lo contrario, las entradas de blog en este sitio están
+    bajo la licencia Creative Commons Atribución 4.0 Internacional (CC BY 4.0)
+    por el autor.
+
+meta: ""
+
+not_found:
+  statement: Lo sentimos, no hemos encontrado esa URL o apunta a algo que no existe.
+
+notification:
+  update_found: Hay una nueva versión del contenido disponible.
+  update: Actualizar
+
+post:
+  written_by: Por
+  posted: Publicado
+  updated: Actualizado
+  words: palabras
+  pageview_measure: visitas
+  read_time:
+    unit: min
+    prompt: leer
+  relate_posts: Lecturas relacionadas
+  share: Compartir
+  button:
+    next: Más recientes
+    previous: Más antiguos
+    copy_code:
+      succeed: ¡Copiado!
+    share_link:
+      title: Copiar enlace
+      succeed: ¡Enlace copiado con éxito!
+
+df:
+  post:
+    strftime: "%e %b %Y"
+    dayjs: "ll"
+  archives:
+    strftime: "%b"
+    dayjs: "MMM"
+
+categories:
+  category_measure:
+    singular: categoría
+    plural: categorías
+  post_measure:
+    singular: publicación
+    plural: publicaciones
